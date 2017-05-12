@@ -7,10 +7,19 @@
     "test": "tests"
   },
   "dependencies": {
-    "ava": "^0.19.1"
+    "babel-cli": "^6.24.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslit": "^4.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslit": "^4.1.1"
+  },
   "scripts": {
+    "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
