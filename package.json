@@ -12,6 +12,7 @@
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
     "coveralls": "^2.13.1",
     "eslint-config-airbnb": "^14.1.0",
     "eslit": "^4.1.1",
@@ -37,6 +38,9 @@
     ],
     "files": [
       "tests/**/*.spec.js"
+    ],
+    "source": [
+      "src/**/*.js"
     ],
     "concurrency": 5
   },

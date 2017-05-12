@@ -5,9 +5,9 @@ provider:
   runtime: nodejs6.10
 
 functions:
-  hello:
-    handler: handler.hello
+  translator:
+    handler: dist/http/endpoints/translator.get
     events:
       - http:
-          path: /hello/
+          path: /translator/
           method: get
