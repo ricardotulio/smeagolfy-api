@@ -6,21 +6,33 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {
-    "babel-cli": "^6.24.1",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslit": "^4.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^0.19.1",
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
+    "coveralls": "^2.13.1",
     "eslint-config-airbnb": "^14.1.0",
     "eslit": "^4.1.1"
   },
   "scripts": {
     "build": "babel src --out-dir dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc ava"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  },
+  "ava": {
+    "require": [
+      "babel-core/register"
+    ]
   },
   "repository": {
     "type": "git",
