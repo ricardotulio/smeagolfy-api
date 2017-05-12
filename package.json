@@ -1,0 +1,29 @@
+{
+  "name": "smeagolfy-api",
+  "version": "0.1.0",
+  "description": "Welcome.. Welcome!!!",
+  "main": "src/app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "ava": "^0.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardotulio/smeagolfy-api.git"
+  },
+  "keywords": [
+    "smeagol"
+  ],
+  "author": "Ricardo Ledo <ledo.tulio@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ricardotulio/smeagolfy-api/issues"
+  },
+  "homepage": "https://github.com/ricardotulio/smeagolfy-api#readme"
+}
