@@ -32,7 +32,11 @@
   "ava": {
     "require": [
       "babel-core/register"
-    ]
+    ],
+    "files": [
+      "tests/**/*.js"
+    ],
+    "concurrency": 5
   },
   "repository": {
     "type": "git",
